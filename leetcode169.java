@@ -16,7 +16,6 @@ class Solution {
                 count--;
             }
         }
-
         return candidate;
     }
 }
