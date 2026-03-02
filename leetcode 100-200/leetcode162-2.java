@@ -19,9 +19,6 @@ class Solution {
         if (arr[n - 1] > arr[n-2]) 
             minIndex =  n - 1;
 
-        if ( minIndex == -1 )
-            return -1 ;
-
         return minIndex;
     }
 }
