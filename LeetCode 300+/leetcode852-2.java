@@ -1,8 +1,8 @@
 class Solution {
     public int peakIndexInMountainArray(int[] nums) {
 
-        int left = 1;                      // start from 1
-        int right = nums.length - 2;       // end at n-2
+        int left = 1;
+        int right = nums.length - 2;
 
         while (left <= right) {
 
