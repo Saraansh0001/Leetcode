@@ -3,7 +3,9 @@
 class Solution {
     public int mySqrt(int x) {
 
-        int lo = 0 , hi = x ;
+        if ( x == 0 ) return 0;
+
+        int lo = 1 , hi = x ;
 
         while ( lo <= hi ){
             int mid = lo + (hi-lo)/2 ;
@@ -16,3 +18,4 @@ class Solution {
 
     }
 }   
+
